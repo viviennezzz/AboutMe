@@ -1,0 +1,54 @@
+body {
+  background-color: grey;
+  color: white;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+}
+
+.sportImg
+{
+  height:300px;
+  width: 350px;
+}
+
+.bookImg
+{
+  height:300px;
+  width:200px;
+}
+
+.foodImg
+{
+  height:300px;
+  width:400px;
+}
+
+.iconImg
+{
+  height:50px;
+  width:50px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.subt{
+  color: LawnGreen;
+  font-size: 18px;
+}
+
+.spec{
+  color:purple;
+  font-size: 16px;
+}
+
+
+ a:link{color: green;}
+ a:visited{color: indigo;}
+ a:hover{color: thistle;}
+ a:active{color:aqua;}

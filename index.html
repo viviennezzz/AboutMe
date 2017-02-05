@@ -1,6 +1,17 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="aboutMe.css">
+<script src="aboutMe.js"></script>
+<script src="jquery-3.1.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("#clickme").click(function(){
+        $("#MyPic").toggle();
+    });
+});
+</script>
+
   <title>Vivienne Zhu</title>
 </head>
 
@@ -16,7 +27,8 @@ I was born and raised in China.
 <br>I like to stay sharp by reading and traveling. 
 </p>
 <br>
-<img src="pictures/Me.jpg">
+<div id="clickme">Show or Hide</div>
+<img id="MyPic" src="pictures/Me.jpg">
 
 <br>
 <p>
@@ -27,8 +39,14 @@ I was born and raised in China.
 <a href="resume.html"><h3>Resume</h3></a> <!--links to a resume page-->
       
       <a href="hobbies.html"><h3>Hobbies</h3></a> <!--links to a hobby page-->
-      <br>
       
+      <button onclick="showAlert()">Favorite Quote</button>
+      <br>
+      <p id="demo"></p>
+      <script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
 </body>
 </center>
 </html>

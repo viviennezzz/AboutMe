@@ -4,3 +4,8 @@ function showAlert() {
 		}
 
 
+$(document).ready(function(){
+    $("#clickme").click(function(){
+        $("#MyPic").toggle();
+    });
+});
